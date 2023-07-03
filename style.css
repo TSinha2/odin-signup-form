@@ -115,6 +115,7 @@ img
 .right-top
 {
     display: flex;
+    width: 65vw;
     height: 33vh;
     background-color: rgb(249, 250, 251);
     align-items: flex-end;
@@ -123,8 +124,58 @@ img
 .rt-text
 {
     font-family: 'Poppins', sans-serif;
-    padding-bottom: 5%;
-    font-size: 16px;
+    font-size: 1.25vw;
     font-weight: bolder;
     padding-left: 5%;
+}
+
+.right-middle
+{
+    display: flex;
+    background-color: white;
+    width: 65vw;
+    height: 34vh;
+    /* box-shadow: 0px 15px 10px -15px #111; */
+    box-shadow: 15px 12px 10px -15px #111;
+    padding-left: 5%;
+    gap: 2.5vw;
+    align-items: center;
+}
+.form-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-text
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25vw;
+    font-weight: bolder;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.middle
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.form
+{
+    width: 15vw;
+}
+
+label
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    color: rgb(51,58,70);
+}
+
+.middle-container
+{
+    display: flex;
+    flex-direction: column;
+    height: 34vh;
 }
