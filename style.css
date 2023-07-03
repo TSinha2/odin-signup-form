@@ -203,6 +203,10 @@ button
     box-shadow: -15px 15px 10px -15px #111;    
 }
 
+input:focus
+{
+    box-shadow: 0px 1px 5px #ccc;
+}
 a
 {
     text-decoration: none;
