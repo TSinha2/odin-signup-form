@@ -179,3 +179,33 @@ label
     flex-direction: column;
     height: 34vh;
 }
+
+.right-bottom
+{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 2%;
+    font-family: 'Poppins', sans-serif;
+
+}
+button
+{
+    /* background-color: rgb(19,19,34); */
+    background-color: rgb(26, 36, 40);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    width: 12.5vw;
+    height: 5vh;
+    box-shadow: -15px 15px 10px -15px #111;    
+}
+
+a
+{
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(26,36,40);
+}
